@@ -13,6 +13,10 @@
 # Intellij files
 .idea
 
+# Build files
+app/build/
+build/
+
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
