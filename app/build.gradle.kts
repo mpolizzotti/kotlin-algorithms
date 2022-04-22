@@ -30,13 +30,17 @@ dependencies {
     implementation("com.google.guava:guava:30.1.1-jre")
 
     // Use the Kotlin test library.
-    testImplementation("org.jetbrains.kotlin:kotlin-test")
-
-    // Use the Kotlin JUnit integration.
-    testImplementation("org.jetbrains.kotlin:kotlin-test-junit")
+    testImplementation("org.junit.jupiter:junit-jupiter-api:5.7.2")
+    testImplementation("org.junit.jupiter:junit-jupiter-engine:5.7.2")
+    testImplementation("org.junit.jupiter:junit-jupiter-params:5.7.2")
+    testImplementation("com.willowtreeapps.assertk:assertk-jvm:0.25")
 }
 
 application {
     // Define the main class for the application.
     mainClass.set("mykotlin.algorithms.AppKt")
+}
+
+tasks.test {
+    useJUnitPlatform()
 }
