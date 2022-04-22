@@ -7,7 +7,7 @@ internal fun binarySearch(arr: List<Int>, num: Int): Int {
     var endIndex = arr.size - 1
 
     while (startIndex <= endIndex ) {
-        val middleIndex = floor((startIndex + ((endIndex - startIndex) / 2)).toDouble()).toInt();
+        val middleIndex = floor((startIndex + ((endIndex - startIndex) / 2)).toDouble()).toInt()
 
         if (num == arr[middleIndex]) {
             return middleIndex

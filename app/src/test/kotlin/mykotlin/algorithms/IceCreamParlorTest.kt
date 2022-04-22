@@ -1,8 +1,7 @@
 package mykotlin.algorithms
 
-import kotlin.test.Test
-import kotlin.test.assertEquals
-import kotlin.test.expect
+import org.junit.jupiter.api.Test
+import org.junit.jupiter.api.Assertions.assertEquals
 
 class IceCreamParlorTest {
     @Test

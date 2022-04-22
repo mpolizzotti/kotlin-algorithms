@@ -1,9 +1,8 @@
 package mykotlin.algorithms
 
 import java.math.BigDecimal
-import java.math.MathContext
-import kotlin.test.Test
-import kotlin.test.assertEquals
+import org.junit.jupiter.api.Test
+import org.junit.jupiter.api.Assertions.assertEquals
 
 class PlusMinusTest {
     @Test
